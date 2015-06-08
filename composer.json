@@ -1,7 +1,7 @@
 {
-	"name": "laravel/laravel",
-	"description": "The Laravel Framework.",
-	"keywords": ["framework", "laravel"],
+	"name": "decisionary/laravel",
+	"description": "decisionary-laravel: Our setup for the Laravel Framework.",
+	"keywords": ["framework", "laravel","decisionary'"],
 	"license": "MIT",
 	"type": "project",
 	"require": {
