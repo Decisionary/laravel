@@ -144,7 +144,14 @@ return [
 		'App\Providers\ConfigServiceProvider',
 		'App\Providers\EventServiceProvider',
 		'App\Providers\RouteServiceProvider',
-
+		'Intervention\Image\ImageServiceProvider',
+		'Barryvdh\Debugbar\ServiceProvider',
+		'Rap2hpoutre\LaravelLogViewer\LaravelLogViewerServiceProvider',
+		'Clockwork\Support\Laravel\ClockworkServiceProvider',
+		'Jenssegers\Agent\AgentServiceProvider',
+		'Laracasts\Flash\FlashServiceProvider',
+		'Bugsnag\BugsnagLaravel\BugsnagLaravelServiceProvider',
+		'Jenssegers\Mongodb\MongodbServiceProvider',
 	],
 
 	/*
@@ -160,20 +167,26 @@ return [
 
 	'aliases' => [
 
+		'Agent' 	  => 'Jenssegers\Agent\Facades\Agent',
 		'App'       => 'Illuminate\Support\Facades\App',
 		'Artisan'   => 'Illuminate\Support\Facades\Artisan',
 		'Auth'      => 'Illuminate\Support\Facades\Auth',
 		'Blade'     => 'Illuminate\Support\Facades\Blade',
+		'Bugsnag'   => 'Bugsnag\BugsnagLaravel\BugsnagFacade',
 		'Bus'       => 'Illuminate\Support\Facades\Bus',
 		'Cache'     => 'Illuminate\Support\Facades\Cache',
+		'Clockwork' => 'Clockwork\Support\Laravel\Facade',
 		'Config'    => 'Illuminate\Support\Facades\Config',
 		'Cookie'    => 'Illuminate\Support\Facades\Cookie',
 		'Crypt'     => 'Illuminate\Support\Facades\Crypt',
 		'DB'        => 'Illuminate\Support\Facades\DB',
+		'Debugbar'  => 'Barryvdh\Debugbar\Facade',
 		'Eloquent'  => 'Illuminate\Database\Eloquent\Model',
 		'Event'     => 'Illuminate\Support\Facades\Event',
 		'File'      => 'Illuminate\Support\Facades\File',
+		'Flash'     => 'Laracasts\Flash\Flash',
 		'Hash'      => 'Illuminate\Support\Facades\Hash',
+		'Image' 		=> 'Intervention\Image\Facades\Image',
 		'Input'     => 'Illuminate\Support\Facades\Input',
 		'Inspiring' => 'Illuminate\Foundation\Inspiring',
 		'Lang'      => 'Illuminate\Support\Facades\Lang',
